@@ -32,16 +32,18 @@ This is an example of how to list things you need to use the software and how to
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
 1. Clone the repo
-2. Clone the repo
    ```sh
    git clone https://github.com/mbasy/topicfinder.git
    ```
-3. Install NPM packages
+2. Run the application
    ```sh
-   npm install
+   python api.py
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+3. Open a browser and navigat to
+   ```link
+   http://localhost:5000
    ```
-
+   or
+   ```link
+   http://127.0.0.1:5000
+   ```
