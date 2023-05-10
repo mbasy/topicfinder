@@ -21,15 +21,18 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+List things you need to use the software.
 * npm
   ```sh
-  npm install npm@latest -g
+  Pandas
+  re
+  sys
+  platform
+  distutils
+  flask
   ```
 
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+### How to use
 
 1. Clone the repo
    ```sh
@@ -50,4 +53,18 @@ _Below is an example of how you can instruct your audience on installing and set
    
 4. Upload the two files starting with the cat file and then the text dataset for some results.
 
+### How to use it with a terminal or any cmd
 
+1. Clone the repo
+   ```sh
+   git clone https://github.com/mbasy/topicfinder.git
+   ```
+2. Run the application
+   ```sh
+   python api.py
+   ```
+3. Open a new command window and type:
+   ```sh
+   curl -F "file1=@example1.xlsx" -F "file2=@example2.xlsx"  {your local IP address}:5000/topic_api_json
+   ```
+  
