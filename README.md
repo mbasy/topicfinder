@@ -22,7 +22,6 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 List things you need to use the software.
-* npm
   ```sh
   Pandas
   re
