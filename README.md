@@ -47,3 +47,7 @@ _Below is an example of how you can instruct your audience on installing and set
    ```link
    http://127.0.0.1:5000
    ```
+   
+4. Upload the two files starting with the cat file and then the text dataset for some results.
+
+
